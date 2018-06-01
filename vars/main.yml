@@ -11,7 +11,7 @@ docker_defaults:
     live-restore: true
     log-driver: "journald"
     log-level: "info"
-    selinux-enabled: true
+    # selinux-enabled: true
     userland-proxy: false
 
 docker_defaults_tls:
